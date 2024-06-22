@@ -1,0 +1,419 @@
+.desktop-master {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.desktop-1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    scale: 0.75 0.70;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    position: relative;
+}
+
+.logo {
+    left: 12px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 390px;
+    width: 80px;
+    z-index: 1;
+}
+
+.desktop-1 .div {
+    background-color: #ffffff;
+    height: 1024px;
+    position: fixed;
+    width: 1440px;
+}
+
+.desktop-1 .box-media {
+    background-color: #d9d9d9;
+    height: 500px;
+    left: 830px;
+    position: absolute;
+    top: 110px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.poly-circle {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 40px;
+    left: 71px;
+    position: absolute;
+    top: 895px;
+    width: 40px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border: none;
+}
+
+.poly-circle:hover {
+    transform: scale(1.2);
+    background-color: #d9d9d9;
+}
+
+.poly-circle:focus, .poly-circle:active {
+    transform: translateY(5px);
+}
+
+.line-parent {
+    z-index: 2;
+}
+
+.poly-parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    transition: background-color 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.poly-parent:hover {
+    background-color: black;
+    opacity: 45%;
+    --reset-btn-color: #8c8c8c; /* Makes reset-btn background color adaptive*/
+}
+.poly-parent .poly-circle {
+    pointer-events: auto;
+}
+.poly-parent .poly-circle:hover{
+    background-color: white;
+}
+
+.poly-circle-2 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 40px;
+    left: 340px;
+    position: absolute;
+    top: 895px;
+    width: 40px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border: None;
+}
+
+.poly-circle-2:hover {
+    transform: scale(1.2);
+    background-color: #d9d9d9;
+}
+
+.poly-circle-2:focus, .poly-circle-2:active {
+    transform: translateY(5px);
+}
+
+.poly-parent .poly-circle-2 {
+    pointer-events: auto;
+}
+.poly-parent .poly-circle-2:hover{
+    background-color: white;
+}
+
+.poly-circle-3 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 40px;
+    left: 609px;
+    position: absolute;
+    top: 895px;
+    width: 40px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border: None;
+}
+
+.poly-circle-3:hover {
+    transform: scale(1.2);
+    background-color: #d9d9d9;
+}
+
+.poly-circle-3:focus, .poly-circle-3:active {
+    transform: translateY(5px);
+}
+
+.poly-parent .poly-circle-3 {
+    pointer-events: auto;
+}
+.poly-parent .poly-circle-3:hover{
+    background-color: white;
+}
+
+.scrollable-list-pend {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 250px;
+    width: 550px;
+    overflow: auto;
+    position: absolute;
+    left: 111px;
+    top: 171px;
+    z-index: 1;
+}
+
+.box {
+    background-color: #d9d9d9;
+    height: 94px;
+    margin-bottom: 25px;
+    width: 500px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border-width: 0.05px;
+}
+
+.box:hover {
+    transform: translate(5px, 3px);
+    background-color: #d9d9d9;
+    border-color: black;
+    border-width: 2px;
+}
+
+.box-2 {
+    background-color: #d9d9d9;
+    height: 94px;
+    margin-bottom: 25px;
+    width: 500px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border-width: 0.05px;
+}
+
+.box-2:hover {
+    transform: translate(5px, 3px);
+    background-color: #d9d9d9;
+    border-color: black;
+    border-width: 2px;
+}
+
+.box-3 {
+    background-color: #d9d9d9;
+    height: 94px;
+    margin-bottom: 25px;
+    width: 500px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border-width: 0.05px;
+}
+
+.box-3:hover {
+    transform: translate(5px, 3px);
+    background-color: #d9d9d9;
+    border-color: black;
+    border-width: 2px;
+}
+
+.scrollable-list-know {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 125px;
+    width: 550px;
+    overflow: auto;
+    position: absolute;
+    left: 828px;
+    top: 828px;
+    z-index: 1;
+}
+
+.box-5 {
+    background-color: #d9d9d9;
+    height: 33px;
+    margin-bottom: 25px;
+    width: 500px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border-width: 0.05px;
+}
+
+.box-5:hover {
+    transform: translate(5px, 3px);
+    background-color: #d9d9d9;
+    border-color: black;
+    border-width: 2px;
+}
+
+.preview-master-vis {
+    width: 500px;
+    position: absolute;
+    z-index: 3;
+}
+
+.preview-master-op {
+    width: 500px;
+    position: absolute;
+    opacity: 0%;
+}
+
+.pdf {
+    width: 576px;
+    height: 840px;
+    position: absolute;
+    margin-left: 125px;
+}
+
+.game-master-vis {
+    object-fit: cover;
+    width: 546px;
+    height: 500px;
+    left: 99px;
+    top: 115px;
+    position: absolute;
+    z-index: 3;
+}
+
+.game-master-op {
+    width: 546px;
+    height: 500px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0%;
+}
+
+.btn-vis {
+    background-color: white;
+}
+
+.box-6 {
+    background-color: #d9d9d9;
+    height: 33px;
+    margin-bottom: 25px;
+    width: 500px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border-width: 0.05px;
+}
+
+.box-6:hover {
+    transform: translate(5px, 3px);
+    background-color: #d9d9d9;
+    border-color: black;
+    border-width: 2px;
+}
+
+.box-7 {
+    background-color: #d9d9d9;
+    height: 33px;
+    margin-bottom: 25px;
+    width: 500px;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    border-width: 0.05px;
+}
+
+.box-7:hover {
+    transform: translate(5px, 3px);
+    background-color: #d9d9d9;
+    border-color: black;
+    border-width: 2px;
+}
+
+.desktop-1 .PEND {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 260px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 116px;
+    width: 223px;
+}
+
+.desktop-1 .KNOW {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 988px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 771px;
+    width: 223px;
+}
+
+.reset {
+    object-fit: cover;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.reset:hover {
+    transform: scale(1.1);
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+ .reset-overlay {
+    width: 50px;
+    height: 60px;
+    left: 1028px;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.reset-btn {
+    width: 50px;
+    height: 60px;
+    background-color: var(--reset-btn-color); /* Make adaptive to canvas color */
+    z-index: 1;
+    border: none;
+}
+
+.reset-overlay:focus, .reset-overlay:active {
+    transform: translateY(5px);
+}
+
+.btn-play {
+    height: 44px;
+    left: 1068px;
+    top: 643px;
+    width: 34px;
+    position: absolute;
+    z-index: 1;
+    border-width: 0.05;
+    transition: transform 300ms;
+    transition-timing-function: ease-in-out;
+    border-color: white;
+    border-radius: 15%;
+    clip-path: url(#play);
+    border-left: 0px;
+    border-top: 0px;
+}
+
+ .btn-play:hover {
+    transform: scale(1.1);
+    background-color: #d9d9d9; 
+ } 

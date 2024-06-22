@@ -1,0 +1,35 @@
+services:
+  frontend:
+    restart: always
+    build:
+      context: frontend
+      target: development
+    ports:
+      - 8081:8081
+    stdin_open: true
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - react-flask
+    depends_on:
+      - backend
+    expose: 
+      - 8081
+
+  backend:
+    restart: always
+    build:
+      context: backend
+      target: development
+    ports:
+      - 8080:8080
+    volumes:
+      - ./backend:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - react-flask
+    expose: 
+      - 8080
+networks:
+  react-flask:

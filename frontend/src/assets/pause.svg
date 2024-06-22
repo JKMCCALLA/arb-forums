@@ -1,0 +1,18 @@
+<svg width="38" height="45" viewBox="0 0 38 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Polygon 1">
+<g id="Polygon 2">
+<mask id="path-1-inside-1_101_261" fill="white">
+<path d="M32.25 27L32.25 0.416199L32.25 44.5835V27Z"/>
+</mask>
+<path d="M32.25 27L32.25 0.416199L32.25 44.5835V27Z" fill="#D9D9D9"/>
+<path d="M27.25 27L27.25 0.416199H37.25L37.25 27H27.25ZM37.25 0.416199L37.25 44.5835H27.25L27.25 0.416199H37.25ZM27.25 44.5835V27H37.25V44.5835H27.25Z" fill="#D9D9D9" mask="url(#path-1-inside-1_101_261)"/>
+</g>
+<g id="Polygon 3">
+<mask id="path-3-inside-2_101_261" fill="white">
+<path d="M5.25 27L5.25 0.416199L5.25 44.5835L5.25 27Z"/>
+</mask>
+<path d="M5.25 27L5.25 0.416199L5.25 44.5835L5.25 27Z" fill="#D9D9D9"/>
+<path d="M0.25 27L0.25 0.416199H10.25L10.25 27H0.25ZM10.25 0.416199L10.25 44.5835H0.25L0.25 0.416199H10.25ZM0.25 44.5835L0.25 27H10.25L10.25 44.5835H0.25Z" fill="#D9D9D9" mask="url(#path-3-inside-2_101_261)"/>
+</g>
+</g>
+</svg>
