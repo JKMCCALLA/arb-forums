@@ -3,6 +3,9 @@
 # Support Portal Demo - 1
 https://github.com/JKMCCALLA/arb-forums/assets/59835986/8388f862-bd93-4908-bb9c-b3ceb00d9371
 
+# Development Stages & Agile/Scrum Methods
+https://github.com/user-attachments/files/15945173/Example.Project.Flow.pdf
+
 # Features to introduce
 - MongoDB/Oracle database for storing and retrieving pending requests & knowledge base items.
 - Authentication Page
