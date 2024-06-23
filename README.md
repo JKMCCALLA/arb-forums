@@ -1,5 +1,6 @@
 # arb-forums
- 
+<img width="300" alt="News" src="https://github.com/JKMCCALLA/arb-forums/assets/59835986/5ca968cc-807d-4bf8-857b-e045cee1a9d3">
+
 # Support Portal Demo - 1
 https://github.com/JKMCCALLA/arb-forums/assets/59835986/8388f862-bd93-4908-bb9c-b3ceb00d9371
 
